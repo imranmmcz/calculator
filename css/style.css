@@ -1,0 +1,94 @@
+{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 1380px;
+	height: 680px;
+	background-image:url(https://freepngimg.com/save/14610-presentation-free-png-image/1600x1200);
+	background-position: center;
+	margin-top: 0px auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+#calculator{
+	width: 380px;
+	height: 450px;
+	background-color: ghostwhite;
+	position: relative;
+	margin-left: 780px;
+	border-radius: 40px;
+	top: 4px;
+	box-shadow: 0 15px 8px 5px rgba(55, 215, 0, 1.0);
+
+}
+#result{
+		height: 140px;
+		margin: 0 5px;
+		border-radius: 20px;
+		background: rgba(192, 190, 492, 1.0);
+		color: black;
+		position: relative;
+		box-shadow: black;
+	
+}
+#history{
+	text-align: right;
+	height: 50px;
+	margin: 0 15px;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+
+}
+#output{
+	text-align: right;
+	height: 90px;
+	margin: 0 15px;
+	font-size: 35px;
+	color: black;
+	font-weight: bold;
+}
+#keyboard{
+	height: 310px;
+	margin: 6px 30px;
+
+
+}
+.operator, .number, .empty{
+	height: 40px;
+	width: 60px;
+	margin:10px;
+	float: left;
+	border-radius: 40%;
+	font-weight: bold;
+	font-size: 25px;
+	box-shadow: 0 8px 3px 0 rgba(228, 110, 380, 80.0);
+	border-color: gold;
+
+}
+.operator:focus, .number:focus, .empty:focus{
+	outline: o;
+}
+button:nth-child(1){
+	background: goldenrod;
+}
+button:nth-child(2){
+	background: goldenrod;
+}button:nth-child(3){
+	background: goldenrod;
+}button:nth-child(4){
+	background: goldenrod;
+}button:nth-child(8){
+	background: goldenrod;
+}button:nth-child(12){
+	background: goldenrod;
+}button:nth-child(16){
+	background: goldenrod;
+}button:nth-child(20){
+	background: goldenrod;
+}button:nth-child(17){
+	background: goldenrod;
+}
